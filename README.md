@@ -3,8 +3,10 @@
 Mega Man X Legacy Collection (Nintendo Switch, 01005C60086BE000) 한글패치입니다.
 록맨 X1~X4 의 **일본판(Japanese edition)** 을 한국어로 바꿉니다. 미국판(English edition)은 그대로입니다.
 
-> **⚠ 게임을 고른 화면에서 Y 버튼으로 왼쪽 위 표시를 「Japanese edition」에 맞춘 뒤 시작해야 한국어로 나옵니다.**
-> 판은 게임마다 따로 기억되므로 X1·X2·X3·X4 각각 한 번씩 바꿔 주세요.
+> **⚠ 패치를 넣은 뒤 한국어를 직접 골라야 합니다.**
+> 1. **메뉴(런처)**: 「Option」 → 「Language」 → 맨 아래 「Japanese」 (패치 후 「한국어」로 바뀌는 칸). 설정은 저장되어 다음에도 유지됩니다.
+> 2. **각 게임**: 게임을 고른 화면에서 Y 버튼으로 왼쪽 위 표시를 「한국어판」(원래 Japanese edition)에 맞춘 뒤 시작합니다.
+>    판은 게임마다 따로 기억되므로 X1·X2·X3·X4 각각 한 번씩 바꿔 주세요.
 
 ## 필요한 것
 
@@ -18,12 +20,12 @@ Mega Man X Legacy Collection (Nintendo Switch, 01005C60086BE000) 한글패치입
 ## 설치
 
 ### 스위치 (Atmosphere)
-`RXLC1_KR_v0.9.0_atmosphere.zip` 을 SD 카드 루트에 풉니다.
-- `atmosphere/contents/01005C60086BE000/romfs/...` (X4 대사·글꼴·그림·동영상)
+`RXLC1_KR_v0.9.1_atmosphere.zip` 을 SD 카드 루트에 풉니다.
+- `atmosphere/contents/01005C60086BE000/romfs/...` (메뉴 문자열·글꼴, X4 대사·글꼴·그림·동영상)
 - `atmosphere/exefs_patches/RXLC1_KoreanPatch/EAD37D36ABD7C4C8CE166564F4A4A7FB.ips` (X1~X3 롬·X4 대사 출력기)
 
 ### 에뮬레이터 (Eden / yuzu 계열, Ryujinx)
-`RXLC1_KR_v0.9.0_emulator.zip` 을 풀면 나오는 `KoreanPatch` 폴더를 게임의 모드 폴더에 넣습니다.
+`RXLC1_KR_v0.9.1_emulator.zip` 을 풀면 나오는 `KoreanPatch` 폴더를 게임의 모드 폴더에 넣습니다.
 - Eden / yuzu 계열: `load/01005C60086BE000/KoreanPatch/{romfs,exefs}`
 - Ryujinx: `mods/contents/01005C60086BE000/KoreanPatch/{romfs,exefs}`
 
@@ -31,15 +33,16 @@ Mega Man X Legacy Collection (Nintendo Switch, 01005C60086BE000) 한글패치입
 
 - **록맨 X · X2 · X3**: 일본판 롬의 대사·오프닝 문장 등
 - **록맨 X4**: 대사(엑스·제로), 무기 선택 화면 무기 이름, 엔딩 크레딧, 제로 기술 이름 그림, 애니메이션 동영상 9개 한글 자막
+- **컬렉션 메뉴(런처)**: 메인 메뉴·옵션·언어·그래픽·매뉴얼·헌터 메달·안내 창·뮤지엄(갤러리 설명·굿즈 카탈로그·뮤직 플레이어·PV 시어터)·게임 중 메뉴, X 챌린지 화면(보스·무기 이름과 설명, 랭킹·결과 등)
 
-컬렉션 메뉴(런처)·박물관·X 챌린지는 바꾸지 않았습니다(본체 언어 그대로).
+스태프 롤과 영어 곡 제목은 원문 그대로입니다.
 
 ## 알려진 점
 
-- 에뮬레이터(Eden)에서 X1~X3 오프닝, X4 첫 대사·무기 화면·첫 동영상만 확인한 **시험판**입니다. **스위치 실기는 확인하지 못했습니다.**
+- 에뮬레이터(Eden)에서 X1~X3 오프닝, X4 첫 대사·무기 화면·첫 동영상, 메뉴(메인·옵션·언어·뮤지엄·갤러리 설명·굿즈 카탈로그)만 확인한 **시험판**입니다. **스위치 실기는 확인하지 못했습니다.**
 - 깨지거나 일본어가 남은 화면을 알려 주세요.
 
 ## 내려받기
 
-[Releases](https://github.com/Einbroch/Rockman-X-Legacy-Collection1/releases) 에서 `RXLC1_KR_v0.9.0_atmosphere.zip`(스위치) 또는 `RXLC1_KR_v0.9.0_emulator.zip`(에뮬레이터)을 받으세요.
+[Releases](https://github.com/Einbroch/Rockman-X-Legacy-Collection1/releases) 에서 `RXLC1_KR_v0.9.1_atmosphere.zip`(스위치) 또는 `RXLC1_KR_v0.9.1_emulator.zip`(에뮬레이터)을 받으세요.
 게임 파일(롬·NSP)은 포함하지 않습니다. 본인이 가진 정품 게임에 적용하세요.
