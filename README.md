@@ -20,12 +20,12 @@ Mega Man X Legacy Collection (Nintendo Switch, 01005C60086BE000) 한글패치입
 ## 설치
 
 ### 스위치 (Atmosphere)
-`RXLC1_KR_v0.9.1_atmosphere.zip` 을 SD 카드 루트에 풉니다.
+`RXLC1_KR_v0.9.2_atmosphere.zip` 을 SD 카드 루트에 풉니다.
 - `atmosphere/contents/01005C60086BE000/romfs/...` (메뉴 문자열·글꼴, X4 대사·글꼴·그림·동영상)
 - `atmosphere/exefs_patches/RXLC1_KoreanPatch/EAD37D36ABD7C4C8CE166564F4A4A7FB.ips` (X1~X3 롬·X4 대사 출력기)
 
 ### 에뮬레이터 (Eden / yuzu 계열, Ryujinx)
-`RXLC1_KR_v0.9.1_emulator.zip` 을 풀면 나오는 `KoreanPatch` 폴더를 게임의 모드 폴더에 넣습니다.
+`RXLC1_KR_v0.9.2_emulator.zip` 을 풀면 나오는 `KoreanPatch` 폴더를 게임의 모드 폴더에 넣습니다.
 - Eden / yuzu 계열: `load/01005C60086BE000/KoreanPatch/{romfs,exefs}`
 - Ryujinx: `mods/contents/01005C60086BE000/KoreanPatch/{romfs,exefs}`
 
@@ -44,5 +44,5 @@ Mega Man X Legacy Collection (Nintendo Switch, 01005C60086BE000) 한글패치입
 
 ## 내려받기
 
-[Releases](https://github.com/Einbroch/Rockman-X-Legacy-Collection1/releases) 에서 `RXLC1_KR_v0.9.1_atmosphere.zip`(스위치) 또는 `RXLC1_KR_v0.9.1_emulator.zip`(에뮬레이터)을 받으세요.
+[Releases](https://github.com/Einbroch/Rockman-X-Legacy-Collection1/releases) 에서 `RXLC1_KR_v0.9.2_atmosphere.zip`(스위치) 또는 `RXLC1_KR_v0.9.2_emulator.zip`(에뮬레이터)을 받으세요.
 게임 파일(롬·NSP)은 포함하지 않습니다. 본인이 가진 정품 게임에 적용하세요.
